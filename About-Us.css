@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+
+*, *::before, *::after {
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+	list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p, button, span, em {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.section-container {
+    margin-top: 2em;
+}
+
+
+/* Styling of the Layout 1 section */
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-right {
+    width: 20%;
+}
+
+.hero-left {
+    width: 70%;
+}
+
+.hero-head {
+    color: #000000;
+    font-size: 5.5rem;
+    font-style: semibold;
+    font-weight: 600;
+    fill: solid;
+    line-height: 6rem;
+}
+
+
+/* Styling of the Layout 2 section */
+
+.layout-2-flex {
+    display: flex;
+}
+
+.layout-2-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.layout-2-content + .layout-2-content {
+    margin-left: 12em;
+}
+
+.layout-2-line {
+    margin-bottom: 1em;
+}
+
+.layout-2-title {
+    color: #000000;
+    fill: solid;
+    font-size: 5.5rem;
+    font-weight: 300;
+    font-style: light;
+    line-height: 6rem;
+}
+
+.layout-2-subtitle {
+    color: #000000;
+    fill: solid;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-style: Regular;
+    line-height: 1.75rem;
+}
+
+.layout-2-red {
+    width: 11rem;
+}
+
+.layout-2-blue {
+    width: 9rem;
+}
+
+
+
+/* Styling of the Layout 3 section */
+
+.layout-3-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0em 4em 5em 4em;
+    border-radius: 4.125rem;
+    background:rgba(205, 140, 216, 0.3);
+    fill: solid;
+}
+
+.layout-3-title {
+    color: #000000;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-style: regular;
+    line-height: 3;
+    fill: solid;
+}
+
+.layout-3-subtext {
+    color: #000000;
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-style: light;
+    line-height: 1.44;
+    fill: solid;
+}
+
+
+/* Styling of the Layout 4 section */
+
+.layout-4-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.layout-4-left {
+    width: 60%;
+    margin-left: 2.5em;
+}
+
+.layout-4-text {
+    color: #000000;
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-style: Regular;
+    fill: solid;
+}
+
+.layout-4-inline {
+    color: #000000;
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-style: Regular;
+    fill: solid;
+}
+
+
+/* Styling of the Layout 5 section */
+
+.each-5-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-flex {
+    margin-top: 4em;
+}
+
+.each-5-content {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.layout-5-name, .layout-5-title {
+    margin-top: 1em;
+}
+
+.each-name {
+    color: #000000;
+    font-size: 2.25rem;
+    font-weight: 500;
+    font-style: medium;
+    fill: solid;
+}
+
+.each-title {
+   color: #000000;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: Regular;
+    fill: solid; 
+}
+
+
+
+/* Styling of the Layout 6 section */
+
+.more-container {
+    line-height: 3.3rem;
+}
+
+.more-link {
+    color: #AE1DC7;
+    font-size: 2.25rem;
+    font-weight: 400;
+    font-style: Regular;
+    fill: solid;
+    cursor: pointer;
+}
