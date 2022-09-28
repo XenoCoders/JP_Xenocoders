@@ -13,6 +13,14 @@ img {
     max-width: 100%;
 }
 
+.page-img {
+    width: 100%;
+}
+
+.page-image {
+    width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
 }
@@ -21,9 +29,305 @@ p, button {
   font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.section-container {
+    margin-top: 2em;
+}
+
+.section-content {
+    display: flex;
+}
+
+.line-divider {
+    border: none;
+    border-top: 1px solid grey;
+    margin-top: .3em;
+}
+
+.each_column + .each_column {
+    margin-left: 2em;
+}
+
+.left_column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right_column {
+    width: 50%;
+}
+
+.top_row {
+    margin-bottom: 2em;
+}
 
 
 
+.profile-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.profile-flex .profile-pic {
+    margin-right: .7em;
+}
+
+.heading-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-head {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.flex-right {
+    display: flex;
+    align-items: center;
+}
+
+.timeline-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+.timeline-flex {
+    display: flex;
+    align-items: center;
+}
+
+.each_timeline {
+    display: flex;
+    align-items: center;
+}
+
+.each_timeline + .each_timeline {
+    margin-left: 1em;
+}
+
+.each_timeline .each_time {
+    margin-left: .3em;
+    font-weight: 500;
+    font-style: Medium;
+    color: #000000;
+    font-size: 1.25rem;
+
+}
+
+.readmore-btn {
+    border: none;
+    background: #CD8CD8;
+    padding: .6em 1em .6em 2em;
+    border-radius: .25rem;
+    background-image: url(./assets/readmore_arrow.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: .6rem;
+    background-position-x: 1rem;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-style: Medium;
+    cursor: pointer;
+}
+
+.column-title {
+    font-size: 2.3rem;
+    color: #000000;
+    font-style: SemiBold;
+    font-weight: 600;
+    margin-bottom: 1em;
+    line-height: 3.68rem;
+}
+
+
+
+.topmost-section {
+    margin-top: 2em;
+}
+
+/* .search-icon {
+    width: 20%;
+    margin-right: 2em;
+} */
+
+.topmost-text {
+    color: #AE1DC7;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.44rem;
+    font-style: Regular;
+    Fill: Solid;
+}
+
+.search-action {
+    padding: .5em 2em .5em 3em;
+    background: #FFFFFF;
+    background-image: url(./assets/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.5rem;
+    background-position-x: 1rem;
+    border: none;
+    font-size: 1.25rem;
+}
+
+/* .search-text {
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.44rem;
+    font-style: Regular;
+    Fill: Solid;
+} */
+
+
+/* Styling of Layout one section */
+
+.profile-text {
+    font-size: 1.25rem;
+    color: #000000;
+    font-weight: 500;
+    font-size: Medium;
+    Fill: Solid;
+    line-height: 1.43rem;
+}
+
+.hero-content {
+    margin-bottom: 1.5em;
+}
+
+.hero-content .hero-text {
+    font-size: 1.25rem;
+    color: #000000;
+    font-weight: 500;
+    font-style: Medium;
+    Fill: Solid;
+    line-height: 1.43rem;
+}
+
+
+/* Styling of Layout two section */
+
+.bar-img {
+    width: 100%;
+    margin-top: .5em;
+}
+
+.bar-img .bar-image {
+    width: 75%;
+}
+
+.bar-head {
+    margin-left: .2em;
+    font-size: 3rem;
+    line-height: 5.9rem;
+    font-weight: 500;
+    font-style: Medium;
+    Fill: Solid;
+}
+
+.link_text {
+    color: #AE1DC7;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.44rem;
+    font-style: Medium;
+    Fill: Solid;
+}
+
+.right-arrow {
+    margin: .4em 0 0 .7em;
+
+}
+
+.article-layout {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.just-image {
+    width: 100%;
+}
+
+.article-content {
+    width: 50%;
+    margin-left: 1em;
+}
+
+.article-head {
+    color: #000000;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.93rem;
+    font-style: semibold;
+    Fill: Solid;
+    margin-bottom: .5em;
+}
+
+.article-text {
+    color: #000000;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.18rem;
+    font-style: Regular;
+    Fill: Solid;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+/* Styling of Layout three section */
+
+.img-bar {
+    margin-top: .5em;
+}
+
+.img-bar .image-bar {
+    width: 75%;
+}
+
+.section-three-column {
+    flex-direction: column;
+    width: 30%;
+}
+
+.section-three-column + .section-three-column {
+    margin-left: 2em;
+}
+
+.third-row {
+    display: flex;
+}
+
+
+/* Styling of Layout four section */
+
+.fourth-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.each-cat + .each-cat {
+    margin-left: 1.5em;
+}
+
+.cat-layout {
+    margin-bottom: 2em;
+}
 
 
 

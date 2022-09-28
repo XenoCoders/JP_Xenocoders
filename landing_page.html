@@ -8,80 +8,102 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<section class="section_one">
+        <section>
+            <div class="container">
+                <div class="heading-flex topmost-section">
+                    <div>
+                        <p class="topmost-text">Latest articles</p>
+                    </div>
+                    <div class="flex-right">
+                        <button class="search-action">Search</button>
+                        <!-- <img src="./assets/search_icon.png" alt="search icon" class="search-icon">
+                        <p class="search-text">Search</p> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <hr class="line-divider">
+        </div>
+
+		<section class="section-container layout-one">
 			<div class="container">
-				<div class="left_column">
-					<div>
-						<h2>Why Adobe is buying figma for $20B: Investors are angry</h2>
-					</div>
-					<div>
-						<div>
-							<img
-								src="./assets/profile_head.png"
-								alt="first profile head of the page"
-							/>
-						</div>
-						<div>
-							<p>Emmanuel Chike</p>
-						</div>
-					</div>
-					<div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. At in sit
-							aliquam commodo scelerisque mauris nec, amet quam. Ultrices netus
-							ac, varius scelerisque amet ac sed lacus. Tristique quis.
-						</p>
-					</div>
-					<div>
-						<div>
-							<div>
-								<img src="./assets/time_icon.png" alt="time icon" />
-								<span>4 min</span>
-							</div>
-							<div>
-								<img src="./assets/calendar_icon.png" alt="calendar icon" />
-								<span>Sep 20, 2022</span>
-							</div>
-							<div>
-								<img src="./assets/eye_icon.png" alt="eye icon" />
-								<span>2983</span>
-							</div>
-						</div>
-						<div>
-							<button>Read more</button>
-							<span
-								><img src="./assets/readmore_arrow.png" alt="arrow down"
-							/></span>
-						</div>
-					</div>
-				</div>
-				<div class="right_column">
-					<div>
-						<img src="./assets/hero_img.png" alt="This is the hero image" />
-					</div>
-				</div>
+                <div class="section-content">
+                    <div class="left_column each_column hero-col">
+                        <div>
+                            <h2 class="column-title">Why Adobe is buying figma for $20B:Investors are angry</h2>
+                        </div>
+                        <div class="profile-flex">
+                            <div class="profile-pic">
+                                <img
+                                    src="./assets/profile_head.png"
+                                    alt="first profile head of the page"
+                                />
+                            </div>
+                            <div>
+                                <p class="profile-text">Emmanuel Chike</p>
+                            </div>
+                        </div>
+                        <div class="hero-content">
+                            <p class="hero-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. At in sit
+                                aliquam commodo scelerisque mauris nec, amet quam. Ultrices netus
+                                ac, varius scelerisque amet ac sed lacus. Tristique quis.
+                            </p>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-flex">
+                                <div class="each_timeline">
+                                    <img src="./assets/time_icon.png" alt="time icon" />
+                                    <span class="each_time">4 min</span>
+                                </div>
+                                <div class="each_timeline">
+                                    <img src="./assets/calendar_icon.png" alt="calendar icon" />
+                                    <span class="each_time">Sep 20, 2022</span>
+                                </div>
+                                <div class="each_timeline">
+                                    <img src="./assets/eye_icon.png" alt="eye icon" />
+                                    <span class="each_time">2983</span>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="readmore-btn">Read more</button>
+                                <span
+                                    ><img src="./assets/readmore_arrow.png" alt="arrow down"
+                                /></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_column each_column">
+                        <div class="page-img">
+                            <img src="./assets/hero_img.png" alt="This is the hero image" class="page-image" />
+                        </div>
+                    </div>
+                </div>
 			</div>
 		</section>
 
-		<section class="section_two">
+		<section class="section-container layout-two">
 			<div class="container">
-				<div class="top_row">
-					<div>
-						<div>
+				<div class="top_row heading-flex">
+					<div class="flex-head">
+						<div class="bar-img">
 							<img
 								src="./assets/headline_bar.png"
 								alt="A bar before all the headings"
+                                class="bar-image"
 							/>
 						</div>
-						<div>
-							<h1>Fintech</h1>
+						<div class="bar-heading">
+							<h1 class="bar-head">Fintech</h1>
 						</div>
 					</div>
-					<div>
+					<div class="flex-right">
 						<div>
-							<p>All Fintech articles</p>
+							<p class="link_text">All Fintech articles</p>
 						</div>
-						<div>
+						<div class="right-arrow">
 							<img
 								src="./assets/arrow_right.png"
 								alt="Pointing of right arrow"
@@ -90,135 +112,201 @@
 					</div>
 				</div>
 				<div class="bottom_row">
-					<div class="left_column">
-						<div>
-							<img
-								src="./assets/fintech_img.png"
-								alt="An image in section two of the page"
-							/>
-						</div>
-						<div>
-							<h2>Nigerians react to 6Billion loss incurred by Kuda</h2>
-						</div>
-						<div>
-							<div>
-								<img
-									src="./assets/fintech_profile.png"
-									alt="A profile image of the Fintech section"
-								/>
-							</div>
-							<div>
-								<p>Oloje Oluwatosin</p>
-							</div>
-						</div>
-						<div>
-							<div>
-								<div>
-									<img src="./assets/time_icon.png" alt="time icon" />
-									<span>4 min</span>
-								</div>
-								<div>
-									<img src="./assets/calendar_icon.png" alt="calendar icon" />
-									<span>Sep 20, 2022</span>
-								</div>
-								<div>
-									<img src="./assets/eye_icon.png" alt="eye icon" />
-									<span>2983</span>
-								</div>
-							</div>
-							<div>
-								<button>Read more</button>
-								<span
-									><img src="./assets/readmore_arrow.png" alt="arrow down"
-								/></span>
-							</div>
-						</div>
-					</div>
-					<div class="right_column">
-						<div>
-							<div>
-								<img src="./assets/JP_logo.png" alt="Just project" />
-							</div>
-							<div>
-								<h3>Just Project Launches</h3>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Laoreet massa amet malesuada montes,
-								</p>
-								<div>
-									<button>Read more</button>
-									<span
-										><img src="./assets/readmore_arrow.png" alt="arrow down"
-									/></span>
-								</div>
-							</div>
-						</div>
-						<div>
-							<div>
-                                <img src="./assets/JP_logo.png" alt="Just project" />
+                    <div class="section-content">
+                        <div class="left_column each_column">
+                            <div class="page-img">
+                                <img
+                                    src="./assets/fintech_img.png"
+                                    alt="An image in section two of the page" class="page-image"
+                                />
                             </div>
-							<div>
-                                <h3>Just Project Launches</h3>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Laoreet massa amet malesuada montes,
-								</p>
-								<div>
-									<button>Read more</button>
-									<span
-										><img src="./assets/readmore_arrow.png" alt="arrow down"
-									/></span>
-								</div>
+                            <div>
+                                <h2 class="column-title">Nigerians react to 6Billion loss incurred by Kuda</h2>
                             </div>
-						</div>
-						<div>
-							<div>
-                                <img src="./assets/JP_logo.png" alt="Just project" />
+                            <div class="profile-flex">
+                                <div class="profile-pic">
+                                    <img
+                                        src="./assets/fintech_profile.png"
+                                        alt="A profile image of the Fintech section"
+                                    />
+                                </div>
+                                <div>
+                                    <p>Oloje Oluwatosin</p>
+                                </div>
                             </div>
-							<div>
-                                <h3>Just Project Launches</h3>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Laoreet massa amet malesuada montes,
-								</p>
-								<div>
-									<button>Read more</button>
-									<span
-										><img src="./assets/readmore_arrow.png" alt="arrow down"
-									/></span>
-								</div>
+                            <div class="timeline-content">
+                                <div class="timeline-flex">
+                                    <div class="each_timeline">
+                                        <img src="./assets/time_icon.png" alt="time icon" />
+                                        <span class="each_time">4 min</span>
+                                    </div>
+                                    <div class="each_timeline">
+                                        <img src="./assets/calendar_icon.png" alt="calendar icon" />
+                                        <span class="each_time">Sep 20, 2022</span>
+                                    </div>
+                                    <div class="each_timeline">
+                                        <img src="./assets/eye_icon.png" alt="eye icon" />
+                                        <span class="each_time">2983</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button class="readmore-btn">Read more</button>
+                                    <span
+                                        ><img src="./assets/readmore_arrow.png" alt="arrow down"
+                                    /></span>
+                                </div>
                             </div>
-						</div>
-					</div>
+                        </div>
+                        <div class="right_column each_column">
+                            <div class="article-layout">
+                                <div class="hero-img">
+                                    <img src="./assets/JP_logo.png" alt="Just project" class="just-image" />
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-head">Just Project Launches</h3>
+                                    <p class="article-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Laoreet massa amet malesuada montes,
+                                    </p>
+                                    <div class="article-action">
+                                        <button class="readmore-btn">Read more</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="article-layout">
+                                <div class="hero-img">
+                                    <img src="./assets/JP_logo.png" alt="Just project" class="just-image"/>
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-head">Just Project Launches</h3>
+                                    <p class="article-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Laoreet massa amet malesuada montes,
+                                    </p>
+                                    <div class="article-action">
+                                        <button class="readmore-btn">Read more</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="article-layout">
+                                <div class="hero-img">
+                                    <img src="./assets/JP_logo.png" alt="Just project" class="just-image"/>
+                                </div>
+                                <div class="article-content">
+                                    <h3 class="article-head">Just Project Launches</h3>
+                                    <p class="article-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Laoreet massa amet malesuada montes,
+                                    </p>
+                                    <div class="article-action">
+                                        <button class="readmore-btn">Read more</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 				</div>
 			</div>
 		</section>
 
-		<section class="section_three">
+		<section class="section-container layout-three">
 			<div class="container">
 				<div class="top_row">
-					<div>
-						<img
-							src="./assets/headline_bar.png"
-							alt="A bar before all the headings"
-						/>
-					</div>
-					<div>
-						<h1>Most Read</h1>
-					</div>
+                    <div class=" flex-head">
+                        <div class="img-bar">
+                            <img
+                                src="./assets/headline_bar.png"
+                                alt="A bar before all the headings"
+                                class="image-bar"
+                            />
+                        </div>
+                        <div class="bar-heading">
+                            <h1 class="bar-head">Most Read</h1>
+                        </div>
+                    </div>
 				</div>
-				<div class="bottom_row">
-					<div class="first_column"></div>
-					<div class="first_column"></div>
-					<div class="first_column"></div>
+				<div class="third-row">
+					<div class="section-three-column article-layout">
+                        <div>
+                            <img src="./assets/JP2_logo.png" alt="Just Project logo">
+                        </div>
+                        <h3 class="article-head">Just Project Launches</h3>
+                        <p class="article-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet massa amet malesuada montes,
+                        </p>
+                        <div>
+                            <button class="readmore-btn">Read more</button>
+                        </div>
+                    </div>
+					<div class="section-three-column article-layout">
+                        <div>
+                            <img src="./assets/JP2_logo.png" alt="Just Project logo">
+                        </div>
+                        <h3 class="article-head">Just Project Launches</h3>
+                        <p class="article-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet massa amet malesuada montes,
+                        </p>
+                        <div>
+                            <button class="readmore-btn">Read more</button>
+                        </div>
+                    </div>
+					<div class="section-three-column article-layout">
+                        <div>
+                            <img src="./assets/JP2_logo.png" alt="Just Project logo">
+                        </div>
+                        <h3 class="article-head">Just Project Launches</h3>
+                        <p class="article-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet massa amet malesuada montes,
+                        </p>
+                        <div>
+                            <button class="readmore-btn">Read more</button>
+                        </div>
+                    </div>
 				</div>
 			</div>
 		</section>
 
-		<section class="section_four">
+		<section class="section-container layout-four">
 			<div class="container">
-				<div class="top_row"></div>
-				<div class="bottom_row"></div>
+				<div class="top_row heading-flex">
+                    <div class="flex-head">
+                        <div class="bar-img">
+                            <img
+                                src="./assets/headline_bar.png"
+                                alt="A bar before all the headings"
+                                class="bar-image"
+                            />
+					    </div>
+					    <div class="bar-heading">
+						    <h1 class="bar-head">Categories</h1>
+					    </div>
+                    </div>
+                    <div class="flex-right">
+                        <p class="link_text">View categories</p>
+                        <img src="./assets/arrow_right.png" alt="Pointing arrow" class="right-arrow">
+                    </div>
+                </div>
+				<div class="fourth-row">
+                    <div class="cat-layout">
+                        <span class="each-cat"><img src="./assets/cat_fintech.png" alt="categories-fintech"></span>
+                        <span class="each-cat"><img src="./assets/cat_startups.png" alt="categories-startup"></span>
+                        <span class="each-cat"><img src="./assets/cat_founder.png" alt="categories-founders"></span>
+                        <span class="each-cat"><img src="./assets/cat_UX.png" alt="categories-UX design"></span>
+                        <span class="each-cat"><img src="./assets/cat_webdev.png" alt="categories-web development"></span>
+                        <span class="each-cat"><img src="./assets/cat_tech.png" alt="categories-Technology"></span>
+                        <span class="each-cat"><img src="./assets/cat_agritech.png" alt="categories-agritech"></span>
+                        <span class="each-cat"><img src="./assets/cat_edutech.png" alt="categories-edutech"></span>
+                    </div>
+                    <div class="cat-layout">
+                        <span class="each-cat"><img src="./assets/cat_commerce.png" alt="categories-commerce"></span>
+                        <span class="each-cat"><img src="./assets/cat_gadgets.png" alt="categories-Gadgets"></span>
+                        <span class="each-cat"><img src="./assets/cat_telecom.png" alt="categories-Telecommunication"></span>
+                        <span class="each-cat"><img src="./assets/cat_unicorn.png" alt="categories-unicorn"></span>
+                        <span class="each-cat"><img src="./assets/cat_cloud.png" alt="categories-cloud computing"></span>
+                        <span class="each-cat"><img src="./assets/cat_tech.png" alt="categories-Technology"></span>
+                        <span class="each-cat"><img src="./assets/cat_agritech.png" alt="categories-agritech"></span>
+                    </div>
+                </div>
 			</div>
 		</section>
 	</body>
