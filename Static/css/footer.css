@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+@import url('http://fonts.cdnfonts.com/css/roboto');
+@import url('http://fonts.cdnfonts.com/css/oswald-4');
+body{
+    width: 100%;
+}
+footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border: 1px hidden black;
+    width: 1440px;
+    border-radius: 0px;
+    background:linear-gradient(to right,#b00fcd,#CD8CD8);
+}
+.foot-top-left-text{
+    width: 35%;
+    align-items: center;
+}
+.foot-top-left-text p:first-of-type{
+    font-family: 'Oswald Regular', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+}
+.foot-top-left-text p{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.foot-top-right{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    gap: 3em;
+    margin-left: 2rem;
+}
+.footer-bottom{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 1rem 2rem;
+    border: 1px hidden black;
+    height: 125px;
+    border-radius: 0px;
+    gap: 14rem;
+    justify-content: flex-end;
+}
+.foot-btm-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:40%;
+    padding:0 1rem ;
+    gap: 2rem;
+}
+.foot-btm-middle{
+    width: 30%;
+    display: flex;
+    left: 589px;
+    top: 146px;
+    border-radius: 0px;
+}
