@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@import url('http://fonts.cdnfonts.com/css/roboto');
+                
+header{
+    display: flex;
+    border: 1px hidden rgb(0,0,0);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+.logo{
+    display: flex;
+    width: 8%;
+    height: 100%;
+    margin-left: 2rem;
+}
+.logo>img{
+    padding: 1rem;
+}
+.header-text{
+    display: flex;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 10%;
+}
+.header-text p{
+    line-height: 23px;
+    text-align: left;
+}
+.header-icons{
+    display: flex;
+    width: 15%;
+    align-items: center;
+}
+.header-icons p{
+    white-space: nowrap;
+    text-overflow: clip;
+}
+/* DISPLAY NONE WHEN ENTRANT IS SIGNED IN */
+.logged-in{
+    display:flex;
+    width: 100%;
+    align-items: center;
+}
+.logged-in button{
+    background-color:#CD8CD8;
+    height: 55px;
+    width: 99px;
+    border-radius: 2px;
+    padding: 16px;
+    border: hidden;
+}
+.logged-in a{
+    text-decoration: none;
+    color: #ffffff;
+    white-space: nowrap;
+}
+/* GET THIS WHEN THE ENTRANT IS SIGNED IN */
+.signed-in{
+    display:none;
+    align-items: center;
+    margin-right: 10px;
+    gap: 2rem;
+    height: 49px;
+    width: 119px;
+    border-radius: 0px;
+}
