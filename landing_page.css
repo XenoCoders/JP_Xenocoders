@@ -172,25 +172,21 @@ p, button {
 }
 
 .search-action {
-    padding: .5em 2em .5em 3em;
+    /* padding: .5em 2em .5em 3em; */
+    width: 8rem;
     background: #FFFFFF;
     background-image: url(./assets/search_icon.png);
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 1.5rem;
-    background-position-x: 1rem;
+    background-size: 1.2rem;
+    background-position-x: .5rem;
     border: none;
     font-size: 1.25rem;
-}
-
-/* .search-text {
-    color: #000000;
+    text-align: right;
     font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 1.44rem;
-    font-style: Regular;
     Fill: Solid;
-} */
+    /* line-height: 1.44rem; */
+}
 
 
 /* Styling of Layout one section */
@@ -316,16 +312,37 @@ p, button {
 
 /* Styling of Layout four section */
 
-.fourth-row {
+.fourth-row .layout-cat {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.each-cat {
+    color: #000000;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.43rem;
+    font-style: Regular;
+    Fill: Solid;
+    padding: .5em 1em;
+    border-radius: .94rem;
+    border-width: thin;
+}
+
+.each-cat:hover {
+    border: none;
+    color: #FFFFFF;
+    background: #CD8CD8;
+    Fill: Solid;
+    cursor: pointer;
 }
 
 .each-cat + .each-cat {
-    margin-left: 1.5em;
+    margin-left: .8em;
 }
 
-.cat-layout {
+.layout-cat {
     margin-bottom: 2em;
 }
 
