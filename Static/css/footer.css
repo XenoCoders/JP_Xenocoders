@@ -20,6 +20,7 @@ footer{
     flex-direction: column;
     margin: 0 auto;
 }
+/* TOP SECTION OF FOOTER */
 .footer-top{
     display: flex;
     justify-content: space-between;
@@ -58,6 +59,67 @@ footer{
     gap: 3em;
     margin-left: 2rem;
 }
+.mail-section{
+    display: flex;
+    height: 79%;
+    width: 50%;
+    border-radius: 6px;
+    padding: 1rem;
+    background-color:#D69ADF;
+    align-items: center;
+    cursor: pointer;
+}
+.mail-icon img{
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+}
+input[type=email]{
+    padding: 1rem;
+    color: #FFFFFF;
+}
+::placeholder{
+    color: #FFFFFF;
+    opacity: 1;
+}
+input{
+    background-color: transparent;
+    border: hidden;
+    text-align: center;
+}
+.subscribe-btn{
+    height: 75%;
+    width: 122px;
+    border-radius: 7px;
+    padding: 16px 16px 18px 16px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    transition: background-color 1s, ease-out 1s;
+}
+.subscribe-btn button{
+    border: hidden;
+    color:#AE1DC7;
+    background-color: transparent;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    outline: none;
+}
+.subscribe-btn button:hover{
+    color: #FFFFFF;
+}
+.subscribe-btn:hover{
+    background-color: transparent;
+}
+form{
+    display: flex;
+}
+/* BOTTOM SECTION OF FOOTER */
 .footer-bottom{
     display: flex;
     width: 100%;
@@ -80,7 +142,5 @@ footer{
 .foot-btm-middle{
     width: 30%;
     display: flex;
-    left: 589px;
-    top: 146px;
-    border-radius: 0px;
+
 }
