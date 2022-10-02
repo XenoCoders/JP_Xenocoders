@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 1024px;
+}
+header {
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: space-between;
+    margin: 53px 112px 31px 112px;
+    visibility: hidden;
+}
+
+
+nav a {
+    text-decoration: none;
+
+}
+
+button {
+    font-size: 20px;
+    border-radius: 20px;
+    border: 3px solid #CD8CD8;
+}
+
+#home {
+    background-color: transparent;
+    margin-right: 31px;
+    padding: 14px 40px;
+}
+
+#about {
+    background-color: #CD8CD8;
+    border: 1px solid #AE1DC7;
+    padding: 14px 23px;
+}
+
+#home a {
+    color: black;
+}
+
+#about a {
+    color: white;
+}
+
+.main {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: url("./cyborg-92\ 1cyborg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+    background-attachment: scroll;
+} 
+
+.layers img {
+    width: 100%;
+    height: 550px;
+    margin-top: 330px;
+    position: absolute;
+    border-radius: 0 0 30px 30px;
+    overflow: hidden;
+}

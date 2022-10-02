@@ -1,36 +1,34 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
+    /* text-align: left; */
 }
 @import url('http://fonts.cdnfonts.com/css/roboto');
 @import url('http://fonts.cdnfonts.com/css/oswald-4');
-body{
-    width: 100%;
-}
+
 footer{
     display: flex;
     width: 100%;
     flex-direction: column;
-    margin: 0 auto;
+    align-items: center;
 }
+/* TOP SECTION OF FOOTER */
 .footer-top{
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
     border: 1px hidden black;
-    width: 1440px;
+    width: 100%;
     border-radius: 0px;
     background:linear-gradient(to right,#b00fcd,#CD8CD8);
 }
 .foot-top-left-text{
-    width: 35%;
+    width: 53%;
     align-items: center;
 }
 .foot-top-left-text p:first-of-type{
@@ -53,11 +51,71 @@ footer{
 }
 .foot-top-right{
     display: flex;
-    width: 50%;
+    width: 42%;
     align-items: center;
-    gap: 3em;
     margin-left: 2rem;
 }
+.mail-section{
+    display: flex;
+    height: 79%;
+    border-radius: 6px;
+    padding: 1rem;
+    background-color:#D69ADF;
+    align-items: center;
+    cursor: pointer;
+}
+.mail-icon img{
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+}
+input[type=email]{
+    padding: 1rem;
+    color: #FFFFFF;
+}
+::placeholder{
+    color: #FFFFFF;
+    opacity: 1;
+}
+input{
+    background-color: transparent;
+    border: hidden;
+    text-align: center;
+}
+.subscribe-btn{
+    height: 75%;
+    width: 122px;
+    border-radius: 7px;
+    padding: 16px 16px 18px 16px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    transition: background-color 1s, ease-out 1s;
+}
+.subscribe-btn button{
+    border: hidden;
+    color:#AE1DC7;
+    background-color: transparent;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    outline: none;
+}
+.subscribe-btn button:hover{
+    color: #FFFFFF;
+}
+.subscribe-btn:hover{
+    background-color: transparent;
+}
+form{
+    display: flex;
+    width: 100%;
+}
+/* BOTTOM SECTION OF FOOTER */
 .footer-bottom{
     display: flex;
     width: 100%;
@@ -65,22 +123,31 @@ footer{
     padding: 1rem 2rem;
     border: 1px hidden black;
     height: 125px;
-    border-radius: 0px;
-    gap: 14rem;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 .foot-btm-left{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width:40%;
-    padding:0 1rem ;
+    /* justify-content: space-between; */
     gap: 2rem;
+    width:45%;
+    padding:0 ;
+}
+.foot-btm-left a{
+    text-decoration: none;
+    color: #000000;
+    white-space: nowrap;
 }
 .foot-btm-middle{
-    width: 30%;
+    width: 33%;
     display: flex;
-    left: 589px;
-    top: 146px;
-    border-radius: 0px;
+    height: 99%;
+
+}
+.foot-btm-right{
+    width:20% ;
+    display: flex;
+}
+.foot-btm-right p{
+    white-space: nowrap;
 }

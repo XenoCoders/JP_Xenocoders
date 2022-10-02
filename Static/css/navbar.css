@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+  width: 100%;
+}
+.container-navbar{
+  display: flex;
+  padding: 1rem;
+}
+
+/* Style the navigation menu */
+header {
+    overflow: hidden;
+    background-color:#ffffff;
+    position: relative;
+    width: 100%;
+    /* margin: 0 auto; */
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  header #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  header a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    background-color: #b235b2;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the hamburger menu */
+  header a.icon {
+    background:#AE1DC7;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+   header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
