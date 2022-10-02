@@ -1,15 +1,23 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
+body{
+  width: 100%;
+}
+.container-navbar{
+  display: flex;
+  padding: 1rem;
+}
+
 /* Style the navigation menu */
 header {
     overflow: hidden;
     background-color:#ffffff;
     position: relative;
-    width: 99%;
-    padding: auto;
-    margin: 9px auto;
+    width: 100%;
+    /* margin: 0 auto; */
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */

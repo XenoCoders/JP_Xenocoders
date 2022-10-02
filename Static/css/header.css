@@ -1,39 +1,36 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 @import url('http://fonts.cdnfonts.com/css/roboto');
-                
+.container-header{
+    display: flex;
+    padding: 1rem;
+}                
 header{
     display: flex;
     border: 1px hidden rgb(0,0,0);
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    padding: 1rem 0;
 }
 .logo{
     display: flex;
     width: 8%;
-    height: 100%;
-    margin-left: 2rem;
 }
 .logo>img{
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 .header-text{
     display: flex;
-    width: 70%;
+    width: 77%;
     text-align: center;
-    margin: 0 auto;
     justify-content: space-around;
     align-items: center;
-    padding:0 10%;
 }
 .header-text p{
     line-height: 23px;
@@ -57,9 +54,9 @@ header{
 .logged-in button{
     background-color:#CD8CD8;
     height: 55px;
-    width: 99px;
+    width: 57%;
     border-radius: 2px;
-    padding: 16px;
+    padding: 1rem;
     border: hidden;
 }
 .logged-in a{
