@@ -1,0 +1,204 @@
+
+
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&family=Roboto:wght@700&display=swap');
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #page-container {
+    display: flex;
+  }
+
+  /* HEADER */
+  header {
+    margin-bottom: 100px;
+  }
+
+  /* FOOTER */
+  footer {
+    margin-top: 100px;
+  }
+
+  /* LEFT COLUMN */
+
+  #col1 {
+    display: flex;
+    width: 50%;
+    margin-left: 150px;
+    background-image: url("signin-images/outlay.svg");
+    background-repeat: no-repeat;
+    background-size: 470px;
+  }
+
+  #col-wel {
+    padding-top: 20px;
+
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 50px 0 0 40px;
+  }
+
+  #col-pic {
+    padding-bottom: 100px;
+  }
+
+  #col-pic img[src="signin-images/man1.svg"] {
+    height: 300px;
+    margin-left: -245px;
+    margin-top: 150px;
+  }
+
+  /* RIGHT COLUMN */
+
+  #col2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* margin-left: 50px; */
+    margin-right: 150px;
+    padding-right: 100px;
+  }
+
+  #logo-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  #col2 img[src="signin-images/logo.svg"] {
+    height: 50px;
+  }
+
+  #col2 img[src="signin-images/divider.svg"] {
+    height: 2px;
+    margin-top: 24px;
+  }
+
+  .sign-up-text {
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+
+  main .sign-up-text a {
+    color: #B0A8A8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+  }
+
+  .name-section img[src="signin-images/username-icon.svg"] {
+    margin-right: 4px;
+  }
+
+  .name-section {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  .password-section {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  main form input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-left: 6px;
+    border: none;
+  }
+
+  .text-field {
+    width: 90%;
+  }
+  
+  hr {
+    margin-bottom: 35px;
+    border: 0;
+    border-top: 1px solid #CD8CD8;
+  }
+
+  .remember-section {
+    display: flex;
+    margin-top: 65px;
+  }
+
+  input[type=checkbox] {
+    transform: scale(0.8);
+    margin-right: 2px;
+}
+
+  main .remember-section label, a, p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+
+  main .remember-section label {
+    text-align: left;
+  }
+  main .remember-section label {
+  }
+
+  .remember-me {
+    display: flex;
+    margin-right: auto;
+  }
+
+  .forgot-password {
+    display: flex;
+    margin-left: auto;
+  }
+
+  button {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin-top: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #CD8CD8;
+    color: #FFFFFF;
+  }
+
+  .new-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .social-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .social-icons-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+  }
+
+/*RESPONSIVE MODE*/
+
+@media screen and (max-width: 768px) {
+  
+
+}
+
