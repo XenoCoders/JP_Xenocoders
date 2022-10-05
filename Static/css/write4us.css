@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem auto;
+    padding: 0 12rem;
+}
+
+.top-main h1{
+    color:#B530CB;
+    font-family: 'Outfit', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 63px;
+    text-align: left;
+
+}
+.top-main p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+}
+.middle-main{
+    display: flex;
+    flex-direction: column;
+}
+.card-image{
+    display: flex;
+}
+.card-image p{
+    background-image:url("../images/Rectangle\ 19.png");
+    
+    /* background-color: #B530CB; */
+}
+.card-image img{
+    height: 472px;
+    width: 770px;
+}
+.card h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 49px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+.card{
+    margin: 2rem auto;
+    padding: 0 12rem;
+}
+.randompic{
+    position: absolute;
+    left: 42rem;
+    top: 78rem;
+}
