@@ -2,13 +2,19 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0 auto;
+    user-select: none;
 }
 @import url('http://fonts.cdnfonts.com/css/roboto');
+
+body{
+    width: 100%;
+}
 .container-header{
     display: flex;
     padding: 1rem;
 }                
-header{
+
+.container-header header{
     display: flex;
     border: 1px hidden rgb(0,0,0);
     justify-content: center;
@@ -18,13 +24,12 @@ header{
     font-size: 20px;
     font-weight: 400;
 }
-.logo{
+
+.container-header header .logo{
     display: flex;
     width: 8%;
 }
-.logo>img{
-    /* padding: 1rem; */
-}
+
 .header-text{
     display: flex;
     width: 77%;
@@ -32,15 +37,18 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+
 .header-text p{
     line-height: 23px;
     text-align: left;
 }
+
 .header-icons{
     display: flex;
     width: 15%;
     align-items: center;
 }
+
 .header-icons p{
     white-space: nowrap;
     text-overflow: clip;
@@ -51,14 +59,15 @@ header{
     width: 100%;
     align-items: center;
 }
+
 .logged-in button{
     background-color:#CD8CD8;
     height: 55px;
-    width: 57%;
     border-radius: 2px;
     padding: 1rem;
     border: hidden;
 }
+
 .logged-in a{
     text-decoration: none;
     color: #ffffff;
@@ -74,3 +83,199 @@ header{
     width: 119px;
     border-radius: 0px;
 }
+       /* STYLING THE NAVBAR SIDE BAR */
+.container-navbar{
+    display: none;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Style the navigation menu */
+  .container-navbar header {
+      overflow: hidden;
+      background-color:#ffffff;
+      position: relative;
+      width: 100%;
+    }
+    
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    header #myLinks {
+      display: none;
+    }
+    
+    /* Style navigation menu links */
+    li a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+      background-color: #b235b2;
+    }
+  
+    .container-navbar header>img{
+      background-color: #b235b2;
+      padding:14px 16px ;
+    }
+  
+    header .row>img:hover{
+      background-color: #ddd;
+      color: black
+    }
+  
+    header li:hover{
+      background-color: #ddd;
+      color: black
+    }
+  
+    #myLinks{
+      background-color: #b235b2;
+    }
+  
+    header #myLinks{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    nav{
+      display: flex;
+      position: relative;
+      margin-left: 1em;
+      width: 18%;
+    }
+  
+    ul{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 3rem;
+    }
+  
+   ul:last-child{
+      margin-bottom: 3rem;
+   }
+  
+    li{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      justify-content: center;
+    }
+  
+    li img{
+      width: 11%;
+      display: flex;
+    }
+    
+    li a{
+      width: 70%;
+      display: flex;
+      justify-content:flex-start;
+      align-items: center;
+      margin: 0;
+      white-space: nowrap;
+    }
+    /* Style the hamburger menu */
+    header a.icon {
+      background:#AE1DC7;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .bigicon1{
+        width:2rem;
+    }
+
+    .bigicon2{
+        width:1.7rem;
+    }
+    
+    /* Style the top icon */
+    .container-navbar header .logo{
+    padding-left: 1rem;
+  }
+    /* Add a grey background color on mouse-over */
+     header a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Style the active link (or home/logo) */
+    .active {
+      background-color: #04AA6D;
+      color: white;
+    }
+  
+    #span{
+      margin-top:1rem ;
+      position: relative;
+      margin-right: 77em;
+    }
+    
+    /* Style the close icon */
+    .row img{
+      margin: 0 0 1rem 0;
+      width: 1.5rem;
+    }
+    
+    .row{
+      padding-top:.5rem;
+    }
+    /* Media Responsiveness */
+    @media screen and (max-width:1200px){
+      .row{
+        padding-left: 1rem ;
+      }
+    }
+    @media screen and (max-width:768px) {
+      .row{
+        padding: auto;
+        margin: 0 1rem;
+      }
+
+      li a{
+        margin-right: 4em;
+        text-align: left;
+      }
+      li{
+        gap: 1rem;
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+      }
+      ul{
+        justify-content: center;
+      }
+    }
+       /* Media Responsiveness for Side Nav Bar */
+    @media screen and (max-width:768px) {
+        .container-navbar{
+            display: flex;
+        }
+        .container-header{
+            display: none;
+        }
+        .fa{
+            color: #ffffff;
+            background-color: #b235b2;
+            padding: 1rem 1rem .9rem 1rem;
+            border-radius:2.6rem ;
+            transition: background-color .7s;
+        }
+        .fa:hover{
+            color:#b235b2 ;
+            background-color: #ddd;
+        }
+        .bigicon1{
+            width: 1.2rem;
+        }
+        .bigicon2{
+            width: 1.2rem;
+        }
+    }
