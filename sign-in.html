@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="sign-in.css"/>
+</head>
+<body>
+
+    <header></header>
+
+    <main>
+        
+        <!-- Key:
+        page-container: the main container.
+        col1 (column 1): the container on the left column containing the heading and image.
+        col2 (column 2): the container on the right containing the form, social media icons, etc.
+        col-wel: the heading container.
+        col-pic: the picture container -->
+
+        <div id="page-container">
+            <div id="col1">
+                <div id="col-wel">
+                    <h1>Welcome back!</h1>
+                </div>
+                <div id="col-pic">
+                    <img src="signin-images/man1.svg" alt="Man">
+                </div>
+            </div>
+            <div id="col2">
+                <div id="logo-container">
+                    <img src="signin-images/logo.svg" alt="Logo">
+                    <img src="signin-images/divider.svg" alt="Divider">
+                </div>
+                <div class="sign-up-text">
+                    <a href="">Sign Up</a>
+                    <a href="">Sign In</a>
+                </div>
+                <form action="">
+                    <div class="name-section">
+                        <img src="signin-images/username-icon.svg" alt="icon" height="12px">
+                    <input class="text-field" type="text" id="username" name="username" placeholder="Enter your username" required>
+                    </div>
+                    <hr>
+                    <div class="password-section"></div>
+                    <img src="signin-images/password-icon.svg" alt="icon" height="12px">
+                    <input class="text-field" type="password" id="password" name="password" placeholder="Enter password" required>
+                    <hr>
+
+                <div class="remember-section">
+
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <div class="forgot-password">
+                    <a href="">Forgot password?</a>
+                </div>
+
+                </div>
+
+                    <button>SIGN IN</button>
+                </form>
+                <div class="new-section">
+                    <p>New on our platform?</p>
+                    <a href="">Create an account</a>
+                </div>
+                <div>
+                    <img src="signin-images/or.svg" alt="Divider" width="100%">
+                </div>
+                <div class="social-section">
+                    <p>With your social account</p>
+                </div>
+                <div class="social-icons-section">
+                    <img src="signin-images/google.svg" alt="Google" height="50px">
+                    <img src="signin-images/facebook.svg" alt="Facebook" height="50px">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+    
+</body>
+</html>
