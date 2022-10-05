@@ -30,8 +30,8 @@ body{
     font-weight: 900;
     line-height: 63px;
     text-align: left;
-
 }
+
 .top-main p{
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
@@ -42,18 +42,20 @@ body{
 .middle-main{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .card-image{
     display: flex;
+    gap: 2rem;
 }
 .card-image p{
     background-image:url("../images/Rectangle\ 19.png");
-    
+    background-position: center;
+    background-repeat: no-repeat;
     /* background-color: #B530CB; */
 }
 .card-image img{
-    height: 472px;
-    width: 770px;
+    width: 50%;
 }
 .card h1 {
     font-size: 40px;
@@ -63,11 +65,23 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .card{
-    margin: 2rem auto;
-    padding: 0 12rem;
+    margin: 1rem auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
 }
 .randompic{
     position: absolute;
     left: 42rem;
     top: 78rem;
+}
+button{
+    border: none;
+    width: 12%;
+    position: relative;
+    margin-left: 40%;
+    padding: 1rem 1.3rem;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 2rem;
 }
