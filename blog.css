@@ -57,6 +57,11 @@ p, button {
   gap: 10px;
   padding: 2rem 0;
 }
+.personal_profile img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
 .personal_profile p{
   color: var(--color-primary-text);
 }
