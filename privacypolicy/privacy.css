@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FCF7FC;
+}
+
+header {
+    /* border: 1px solid blue; */
+    height: 80px;
+}
+
+.first {
+    text-align: center;
+    margin-top: 73px;
+    /* border: 1px solid brown; */
+}
+
+.know {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.privacy {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 23px;
+    font-size: 40px;
+    /* border: 1px solid orange; */
+}
+
+.first a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.first button {
+    background-color: #AE1DC7;
+    margin-top: 15px;
+    padding: 0 10px;
+    height: 39px;
+    border: none;
+    border-radius: 3px;
+}
+
+.website {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    margin-top: 80px;
+}
+
+.plenty {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    max-width: 1166px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 31px;
+    text-align: justify;
+    line-height: 30px;
+    /* border: 1px solid pink; */
+}
+
+.look {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    margin-top: 86px;
+    text-align: center;
+}
+
+.faq a{
+    text-decoration: none;
+    color: #C264D2;
+}
+
+footer {
+    height: 385px;
+    /* border: 1px solid indigo; */
+    margin-top: 76px;
+}
+
+@media screen and (max-width: 500px) {
+    .second {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    .website {
+        font-size: 16px;
+        font-weight: 500;
+        width: 300px;
+    }
+    .plenty {
+        height: 70%;
+        width: 65%;
+    }
+
+    .look {
+        width: 55%;
+    }
+}
