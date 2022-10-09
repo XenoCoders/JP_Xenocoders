@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Header</title>
         <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="container-header">
@@ -25,7 +26,7 @@
                             <a href="">Write For Us</a>
                         </button>
                     </div>
-                    <!-- GET WHEN THE USER IS SIGNED IN -->
+                         <!-- GET WHEN THE USER IS SIGNED IN -->
                     <div class="signed-in">
                         <img src="images/Ellipse 14.png" alt="icon">
                         <img src="images/Vector (1).png" alt="icon">
@@ -33,5 +34,71 @@
                 </div>
             </header>
         </div>
+              <!-- GET WHEN MAX-WIDTH IS 768PX -->
+        <div class="container-navbar">
+            <header>
+                <div class="logo">
+                    <img src="images/Ellipse 21.png" alt="logo">
+                </div>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                    <div class="row">
+                        <img src="images/close.png" alt="icon" id="span">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li>
+                                <img src="images/Vector (2).png" alt="icon">
+                                <a href="">Profile</a>
+                            </li>
+                            <li>
+                                <img src="images/Vector (3).png" alt="icon">
+                                <a href="">Categories</a>
+                            </li>
+                            <li>
+                                <img src="images/Vector (4).png" alt="icon">
+                                <a href="">About Us
+                                </a>
+                            </li>
+                            <li>
+                                <img src="images/Vector (5).png" alt="icon">
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <img src="images/Vector (6).png" alt="icon" class="bigicon1">
+                                <a href="">Terms and Conditions</a>
+                            </li>
+                            <li>
+                                <img src="images/Vector (7).png" alt="icon" class="bigicon2">
+                                <a href="">Write For Us</a>
+                            </li>
+                            <li>
+                                <img src="images/Vector (8).png" alt="icon">
+                                <a href="">Log Out</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </header>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            var p = document.getElementById("span");
+            p.onclick = function () {
+                var y = document.getElementById("myLinks");
+                y.style.display = "none";
+            }
+        </script>
     </body>
 </html>
