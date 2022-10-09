@@ -164,7 +164,16 @@ width: 100%;
 height: 130px;
 }
 
-
+/* 	TWITTER SECTION STARTS  */
+.twitter{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.tweet-feed{
+  margin: 3rem 6rem;
+}
 
 /* THRID SECTION */
 .article-subscribe{
@@ -230,6 +239,105 @@ input:active {
   border: none;
 }
 
+
+/* COMMENT SECTION */
+.comment-extra{
+  width: 90%;
+  margin: 0 auto;
+}
+.comment{
+  margin: 3rem 0;
+}
+.comment-text{
+  display: flex;
+}
+.comment-profile{
+  display: flex;
+  align-items: center;
+}
+.comment-img img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.comment-feed{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.comment-feed-text{
+  margin-bottom: 1rem;
+}
+.comment-users img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.text-area{
+  background-color: var(--color-secondary-text);
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 5px;
+}
+textarea{
+  border: 0px;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.comment-users-text{
+  display: flex;
+  flex-direction: column;
+}
+.btn2 {
+  border: none;
+  padding: 5px 5px;
+  background-color: unset;
+  min-width: 21px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: gray;
+}
+.publish{
+  display: flex;
+  justify-content: space-between;
+}
+.add-blog-btn {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  line-height: 25px;
+  font-size: 20px;
+  background: var(--color-primary-text);
+  border-radius: 5px;  
+  border: 1px solid var(--color-primary-text);
+  cursor: pointer;
+  outline: none;
+}
+
+.add-blog-btn:hover {
+  background: transparent;
+  color: var(--color-primary-text);
+  border: 1px solid var(--color-primary-text);
+}
+.add-blog-btn a{
+color: #fff;
+}
+.add-blog-btn a:hover{
+  color: var(--color-primary-text);
+}
+.load-more{
+  float: right;
+}
+.load-more-btn {
+  line-height: 25px;
+  font-size: 20px;
+  color: var(--color-primary-text);
+  cursor: pointer;
+}
+
+.load-more-btn:hover {
+  color: black;
+}
 
 
 /* FOURTH SECTION */
