@@ -6,7 +6,6 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    /* text-align: left; */
 }
 @import url('http://fonts.cdnfonts.com/css/roboto');
 @import url('http://fonts.cdnfonts.com/css/oswald-4');
@@ -16,6 +15,13 @@ footer{
     width: 100%;
     flex-direction: column;
     align-items: center;
+}
+
+.footer-1{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
 }
 /* TOP SECTION OF FOOTER */
 .footer-top{
@@ -27,10 +33,12 @@ footer{
     border-radius: 0px;
     background:linear-gradient(to right,#b00fcd,#CD8CD8);
 }
+
 .foot-top-left-text{
     width: 53%;
     align-items: center;
 }
+
 .foot-top-left-text p:first-of-type{
     font-family: 'Oswald Regular', sans-serif;
     font-size: 30px;
@@ -125,29 +133,58 @@ form{
     height: 125px;
     justify-content: space-between;
 }
+
 .foot-btm-left{
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     gap: 2rem;
     width:45%;
     padding:0 ;
 }
+
 .foot-btm-left a{
     text-decoration: none;
     color: #000000;
     white-space: nowrap;
 }
+
 .foot-btm-middle{
     width: 33%;
     display: flex;
     height: 99%;
 
 }
+
 .foot-btm-right{
     width:20% ;
     display: flex;
 }
+
 .foot-btm-right p{
     white-space: nowrap;
+}
+
+.footer-2{
+    display: none;
+}
+
+/* GET WHEN SCREEN SIZE IS 768PX */
+@media screen and (max-width:768px) {
+    .footer-2{
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        gap: 2rem;
+        width: 100%;
+        margin: 1rem auto;
+    }
+
+    .footer-2 img:hover{
+        opacity: 0.2;
+        
+    }
+
+    .footer-1{
+        display: none;
+    }
 }

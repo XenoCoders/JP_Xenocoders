@@ -26,7 +26,7 @@
                             <a href="">Write For Us</a>
                         </button>
                     </div>
-                         <!-- GET WHEN THE USER IS SIGNED IN -->
+                    <!-- GET WHEN THE USER IS SIGNED IN -->
                     <div class="signed-in">
                         <img src="images/Ellipse 14.png" alt="icon">
                         <img src="images/Vector (1).png" alt="icon">
@@ -34,7 +34,8 @@
                 </div>
             </header>
         </div>
-              <!-- GET WHEN MAX-WIDTH IS 768PX -->
+        <hr>
+        <!-- GET WHEN MAX-WIDTH IS 768PX -->
         <div class="container-navbar">
             <header>
                 <div class="logo">
@@ -42,9 +43,6 @@
                 </div>
                 <!-- Navigation links (hidden by default) -->
                 <div id="myLinks">
-                    <div class="row">
-                        <img src="images/close.png" alt="icon" id="span">
-                    </div>
                     <nav>
                         <ul>
                             <li>
@@ -81,8 +79,11 @@
                 </div>
                 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-bars" id="hamburg-icon"></i>
                 </a>
+                <div class="row">
+                    <img src="images/close.png" alt="icon" id="span">
+                </div>
             </header>
         </div>
         <script>
@@ -94,11 +95,17 @@
                     x.style.display = "block";
                 }
             }
-            var p = document.getElementById("span");
+            var p = document.getElementsByClassName("fa");
             p.onclick = function () {
+                var h = document.getElementById("hamburg-icon");
+                h.style.display = "none";
+                var z = document.getElementsByClassName ("row");
+                z.style.display = "block";
                 var y = document.getElementById("myLinks");
                 y.style.display = "none";
+               
             }
+            
         </script>
     </body>
 </html>
