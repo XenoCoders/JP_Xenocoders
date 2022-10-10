@@ -41,7 +41,8 @@ body{
 .header-text p{
     line-height: 23px;
     text-align: left;
-    transition: background-color 1s, padding 0.3s, ease-in-out .5s ;
+    opacity: 0.9;
+    transition: background-color 1s,  ease-in-out 1s ;
 }
 
 .header-text p:hover{
@@ -52,7 +53,7 @@ body{
 }
 
 .container-header header .logo:hover{
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .header-icons{
     display: flex;
@@ -111,7 +112,9 @@ body{
       position: relative;
       width: 100%;
     }
-    
+    .container-navbar header .logo:hover{
+      opacity: 0.7;
+    }
     /* Hide the links inside the navigation menu (except for logo/home) */
     header #myLinks {
       display: none;
@@ -125,6 +128,7 @@ body{
       font-size: 17px;
       display: block;
       background-color: #b235b2;
+      transition: background-color 1s, ease-in-out .6s;
     }
   
     .container-navbar header>img{
@@ -132,18 +136,17 @@ body{
       padding:14px 16px ;
     }
   
-    header .row>img:hover{
-      background-color: #ddd;
-      color: black
-    }
-  
-    header li:hover{
-      background-color: #ddd;
-      color: black
+
+    header a:hover{
+      background-color: #CD8CD8;
+      color: #000000;
+      border-radius: 1rem;
     }
   
     #myLinks{
       background-color: #b235b2;
+      margin-top: 1rem;
+      border-radius: 2rem;
     }
   
     header #myLinks{
@@ -169,6 +172,10 @@ body{
    ul:last-child{
       margin-bottom: 3rem;
    }
+
+   ul:first-child{
+    margin-top: 1rem;
+   }
   
     li{
       list-style: none;
@@ -182,7 +189,11 @@ body{
       width: 11%;
       display: flex;
     }
-    
+
+    li img:hover{
+      opacity: 0.7;
+    }
+
     li a{
       width: 70%;
       display: flex;
@@ -230,26 +241,10 @@ body{
       background-color: #AE1DC7;
     }
     
-    /* Style the close icon */
-    .row img{
-      margin: 0 0 1rem 0;
-      width: 1.5rem;
-    }
-    
-    .row{
-      padding-top:.5rem;
-    }
+
     /* Media Responsiveness */
-    @media screen and (max-width:1200px){
-      .row{
-        padding-left: 1rem ;
-      }
-    }
     @media screen and (max-width:768px) {
-      .row{
-        padding: auto;
-        margin: 0 1rem;
-      }
+    
 
       li a{
         margin-right: 4em;

@@ -63,6 +63,7 @@ footer{
     align-items: center;
     margin-left: 2rem;
 }
+
 .mail-section{
     display: flex;
     height: 79%;
@@ -132,6 +133,7 @@ form{
     border: 1px hidden black;
     height: 125px;
     justify-content: space-between;
+    opacity: .9;
 }
 
 .foot-btm-left{
@@ -146,8 +148,16 @@ form{
     text-decoration: none;
     color: #000000;
     white-space: nowrap;
+    transition: background-color .8s, ease-in-out .8s;
 }
-
+.foot-btm-left a:hover{
+    opacity: 0.7;
+    background-color: #AE1DC7;
+    padding: .8rem 1.3rem;
+    border-radius: .6rem;
+    color: #ffffff;
+    justify-content: space-between;
+}
 .foot-btm-middle{
     width: 33%;
     display: flex;

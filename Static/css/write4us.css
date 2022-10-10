@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body{
@@ -133,7 +134,7 @@ button{
     width: 15%;
     position: relative;
     margin-left: 40%;
-    padding: 0.7rem 2rem;
+    padding: 0.9rem 2rem;
     white-space: nowrap;
     text-align: center;
     border-radius: 2rem;
@@ -141,7 +142,9 @@ button{
     margin-top: 4rem;
 }
 
-
+button:hover{
+    opacity: 0.6;
+}
 
 .btn1{
     color: #ffffff;
@@ -161,4 +164,7 @@ button{
     line-height: 30px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+}
+.mini-backdrop img{
+    width: 31%;
 }
