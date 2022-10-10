@@ -15,9 +15,9 @@
                     <img src="images/logo (1).png" alt="logo">
                 </div>
                 <div class="header-text">
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
+                    <p title="HTML">HTML</p>
+                    <p title="CSS">CSS</p>
+                    <p title="JavaScript">JavaScript</p>
                     <p>About Us</p>
                 </div>
                 <div class="header-icons">
@@ -77,13 +77,13 @@
                         </ul>
                     </nav>
                 </div>
+                <!-- <div class="row">
+                                    <img src="images/close.png" alt="icon" id="span">
+                                </div> -->
                 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars" id="hamburg-icon"></i>
                 </a>
-                <div class="row">
-                    <img src="images/close.png" alt="icon" id="span">
-                </div>
             </header>
         </div>
         <script>
@@ -95,17 +95,12 @@
                     x.style.display = "block";
                 }
             }
+
             var p = document.getElementsByClassName("fa");
             p.onclick = function () {
-                var h = document.getElementById("hamburg-icon");
-                h.style.display = "none";
-                var z = document.getElementsByClassName ("row");
-                z.style.display = "block";
-                var y = document.getElementById("myLinks");
-                y.style.display = "none";
-               
+                var z = document.getElementById("myLinks");
+                z.style.display = "none";
             }
-            
         </script>
     </body>
 </html>
