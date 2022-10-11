@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first {
+    margin-right: 50px;
+}
+
+.second {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 225, 225, 0.37);
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-right: 50px;
+    position: relative;
+}
+
+.second-b {
+    width: 500px;
+    height: 600px;
+    opacity: 1.0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    margin-left: 50px;
+}
+
+.second-b p {
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #746565;
+    line-height: 30px;
+    padding-top: 60px;
+}
+
+#mail {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top: #ebcae8;
+    border-right: #ebcae8;
+    border-left: #ebcae8;
+    border-bottom-color: #CD8CD8;
+    width: 300px;
+    height: 20px;
+    margin-top: 60px;
+}
+
+#mail::placeholder {
+    padding: 0 0 0 5px;
+    background-color: #fff4f4;
+    color: #867E7E;
+    word-spacing: 7px;
+}
+
+#mail:focus {
+    outline: none;
+    background-color: white;
+    color: #3f3f24;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    padding: 0 0 0 5px;
+}
+
+button {
+    padding: 10px 120px;
+    background-color: #CD8CD8;
+    margin-top: 90px;
+    border: 1px solid #CD8CD8;
+    border-radius: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: #FCFCFC;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.second-b h2 {
+    padding-top: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #4A454B;
+}
+
+#question {
+    opacity: 0.2;
+    position: absolute;
+    left: 180px;
+    top: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+    }    
+
+    .first img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+        margin-top: 150px;
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .second-b p {
+        text-align: center;
+        width: 300px;
+    }
+}
