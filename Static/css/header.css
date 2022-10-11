@@ -41,8 +41,20 @@ body{
 .header-text p{
     line-height: 23px;
     text-align: left;
+    opacity: 0.9;
+    transition: background-color 1s,  ease-in-out 1s ;
 }
 
+.header-text p:hover{
+  background-color: rgb(250, 244, 244);
+  color: #b235b2;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+}
+
+.container-header header .logo:hover{
+  opacity: 0.7;
+}
 .header-icons{
     display: flex;
     width: 15%;
@@ -72,6 +84,7 @@ body{
     text-decoration: none;
     color: #ffffff;
     white-space: nowrap;
+    background-color: transparent;
 }
 /* GET THIS WHEN THE ENTRANT IS SIGNED IN */
 .signed-in{
@@ -99,7 +112,9 @@ body{
       position: relative;
       width: 100%;
     }
-    
+    .container-navbar header .logo:hover{
+      opacity: 0.7;
+    }
     /* Hide the links inside the navigation menu (except for logo/home) */
     header #myLinks {
       display: none;
@@ -113,6 +128,7 @@ body{
       font-size: 17px;
       display: block;
       background-color: #b235b2;
+      transition: background-color 1s, ease-in-out .6s;
     }
   
     .container-navbar header>img{
@@ -120,18 +136,17 @@ body{
       padding:14px 16px ;
     }
   
-    header .row>img:hover{
-      background-color: #ddd;
-      color: black
-    }
-  
-    header li:hover{
-      background-color: #ddd;
-      color: black
+
+    header a:hover{
+      background-color: #CD8CD8;
+      color: #000000;
+      border-radius: 1rem;
     }
   
     #myLinks{
       background-color: #b235b2;
+      margin-top: 1rem;
+      border-radius: 2rem;
     }
   
     header #myLinks{
@@ -157,6 +172,10 @@ body{
    ul:last-child{
       margin-bottom: 3rem;
    }
+
+   ul:first-child{
+    margin-top: 1rem;
+   }
   
     li{
       list-style: none;
@@ -170,7 +189,11 @@ body{
       width: 11%;
       display: flex;
     }
-    
+
+    li img:hover{
+      opacity: 0.7;
+    }
+
     li a{
       width: 70%;
       display: flex;
@@ -201,9 +224,8 @@ body{
     padding-left: 1rem;
   }
     /* Add a grey background color on mouse-over */
-     header a:hover {
-      background-color: #ddd;
-      color: black;
+     header button:hover {
+       opacity: 0.4;
     }
     
     /* Style the active link (or home/logo) */
@@ -216,28 +238,13 @@ body{
       margin-top:1rem ;
       position: relative;
       margin-right: 77em;
+      background-color: #AE1DC7;
     }
     
-    /* Style the close icon */
-    .row img{
-      margin: 0 0 1rem 0;
-      width: 1.5rem;
-    }
-    
-    .row{
-      padding-top:.5rem;
-    }
+
     /* Media Responsiveness */
-    @media screen and (max-width:1200px){
-      .row{
-        padding-left: 1rem ;
-      }
-    }
     @media screen and (max-width:768px) {
-      .row{
-        padding: auto;
-        margin: 0 1rem;
-      }
+    
 
       li a{
         margin-right: 4em;
