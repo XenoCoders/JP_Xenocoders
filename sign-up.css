@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kameron&display=swap');
+@import url('http://fonts.cdnfonts.com/css/jsmath-cmmi10');
+
+
+*, *::before, *::after {
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+	list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1128px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.top-section {
+   max-width: 1128px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+.bottom-section {
+    margin: 3em;
+}
+
+.top-container {
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.back-content {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 90%;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.back-img {
+    margin-top: .3em;
+    margin-right: .5em;
+}
+
+.back-arrow {
+    width: .6rem;
+}
+
+.back-text {
+    font-size: 1rem;
+    font-family: 'Outfit', sans-serif;
+    color: #FFFFFF;
+    font-weight: 300;
+    Fill: Solid;
+}
+
+.middle-section {
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    margin: -35px -5px;
+    /* z-index: 2;    */
+}
+
+
+.signup-heading {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.signup-head {
+    font-size: 2rem;
+    font-family: 'Outfit', sans-serif;
+    color: #AF50F1;
+    font-weight: 700;
+    Fill: Solid;
+}
+
+.hero-msg {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.hero-text {
+    font-size: 2.3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    Fill: Solid;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.logo-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.logo-first-text {
+    margin-top: 2em;
+    font-size: 1.5rem;
+    font-family: 'jsMath-cmmi10', sans-serif;
+    color: #000000;
+    font-style: cmmi10;
+    font-weight: 500;
+    Fill: Solid;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-family: 'Kameron', serif;
+    color: #840C98;
+    font-weight: 400;
+    line-height: 1.5rem;
+    Fill: Solid;
+}
+
+
+
+.toggle-content {
+    display: flex;
+}
+
+.toggle{
+    width: 5rem;
+    padding: .1em;
+    cursor: pointer;
+}
+
+
+.form-container {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 0 1 100px;
+}
+
+.form-content .form-field {
+    margin-bottom: 2em;
+    width: 100%;
+    font-size: 1.125rem;
+    border: none;
+    border-bottom: 1px solid;
+    border-bottom-width: thin;
+    padding-left: 2em;
+    padding-bottom: .5em;
+    background: url("/assets/input-icon.png");
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    color: #A49595;
+    font-weight: 400;
+    Fill: Solid;
+}
+
+.form-content .pswd-field {
+    background: url("/assets/pswd-icon.png");
+    background-repeat: no-repeat;
+}
+
+.form-field:focus {
+    outline: none;
+}
+
+.desktop-input {
+    display: none;
+}
+
+.separate-input {
+    display: none;
+}
+
+.form-content .desktop-field {
+    background: url("/assets/username-icon.png");
+    background-repeat: no-repeat;
+}
+
+.input-check {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.check-text {
+    margin-left: .3em;
+    margin-bottom: .1em;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #665D5D;
+    font-weight: 400;
+    Fill: Solid;
+}
+
+.check-good {
+    width: 1.5em;
+    appearance: none;
+    border: 1px solid silver;
+}
+
+.check-good:checked {
+    background-color: #CD8CD8;
+    border: none;
+}
+
+.check-good:checked::after {
+    content: '\2713';
+    color:white;
+    margin-left: .3em;
+    font-size: .9rem;
+}
+
+.signup-action {
+    padding: .5em 2em;
+    font-size: 1.35rem;
+    font-family: 'Roboto', sans-serif;
+    color: #FCFCFC;
+    font-weight: 700;
+    Fill: Solid;
+    border: none;
+    border-radius: 8px;
+    background-color: #CD8CD8;
+    box-shadow: rgba(163, 163, 163, 0.8) 3px 3px 6px -1px;
+    cursor: pointer;
+}
+
+
+.social-container {
+    margin-top: 2.5em;
+    text-align: center;
+}
+
+.social-content {
+    position: relative;
+}
+
+.social-text {
+    font-size: 1.122rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #665D5D;
+    font-weight: 400;
+    Fill: Solid;
+    position: relative;
+}
+
+.social-text:before {
+    content: "";
+    display: block;
+    width: 35%;
+    height: 1px;
+    background: #B0A5A5;
+    position: absolute;
+    left: 1%;
+    top: 50%;
+}
+
+.social-text:after {
+    content: "";
+    display: block;
+    width: 35%;
+    height: 1px;
+    background: #B0A5A5;
+    position: absolute;
+    right: 1%;
+    top: 50%;
+}
+
+.social-account {
+    font-size: .89rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #665D5D;
+    font-weight: 400;
+    Fill: Solid;
+    margin: 2.5em 0 1.5em;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.media-content {
+    width: 36px;
+	height: 36px;
+    border-radius: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 10px;
+}
+
+.media-content + .media-content {
+    margin-left: 2em;
+}
+
+
+
+@media (min-width: 768px) {
+    .top-section {
+        display: none;
+    }
+
+    .desktop-input {
+        display: flex;
+    }
+
+    .separate-input {
+        display: block;
+    }
+
+    .signup-heading, .mobile-input {
+        display: none;
+    }
+
+    .desktop-overall {
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .desktop-hero {
+        width: 40%;
+    }
+
+    .desktop-rect {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .desktop-left {
+        position: relative;
+    }
+
+    .left-overlay {
+        position: absolute;
+        bottom: 0;
+        top: 20%;
+        left: 15%;
+        width: 70%;
+    }
+
+    .bottom-section {
+        margin: 0;
+        width: 60%;
+    }
+
+    .bottom-section .toggle-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .toggle-content {
+        margin: 0 auto;
+    }
+
+    .toggle-spacing {
+        margin-bottom: .5em;
+    }
+
+    .signup-toggle {
+        background: #CE85C1;
+        border: none;
+    }
+
+    .signin-toggle {
+        background: #F3E2F5;  
+    }
+
+    .toggle-content:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .toggle-content button:not(:first-child) {
+        border: none;
+    }
+
+    .toggle-text {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.5em;
+    }
+
+    .toggle-word {
+        font-size: .89rem;
+        font-family: 'Montserrat', sans-serif;
+        color: #B0A8A8;
+        font-weight: 400;
+        Fill: Solid;
+    }
+
+    .toggle-word + .toggle-word {
+        margin-left: 2em;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .form-content .form-field {
+        margin-bottom: 2em;
+        font-size: .8rem;
+        background-size: .8rem;
+        width: 100%;
+    }
+
+    .checkbox-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .check-good {
+        width: 1em;
+        height: 1em;
+    }
+
+    .check-text {
+        margin-bottom: .3em;
+        font-size: .8rem;
+    }
+
+    .check-good:checked::after {
+        margin-left: .2em;
+        font-size: .7rem;
+    }
+
+    .forgot-text {
+        font-size: .8rem;
+        font-family: 'Montserrat', sans-serif;
+        color: #AE1DC7;
+        font-weight: 300;
+        Fill: Solid;
+    }
+
+    .signup-action {
+        margin-bottom: 1em;
+    }
+
+    .social-container {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .create-content {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+
+    .create-text {
+        font-size: .8rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        Fill: Solid;
+    }
+
+    .create-text + .create-text {
+        margin-left: 2em;
+    }
+
+    .quest-text {
+        color: #665D5D;
+    }
+
+    .create-link {
+        color: #AE1DC7;
+    }
+
+    .social-account {
+        margin: 1em 0 1em;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+/* font-family: 'Outfit', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
