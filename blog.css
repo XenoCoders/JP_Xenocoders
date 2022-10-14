@@ -5,8 +5,6 @@
     margin: 0;
 	padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-	list-style: none;
 }
 :root {
   --color-bg: rgb(83, 4, 83);
@@ -250,6 +248,7 @@ input:active {
 }
 .comment-text{
   display: flex;
+  align-items: center;
 }
 .comment-profile{
   display: flex;
@@ -283,6 +282,12 @@ textarea{
   border: 0px;
   padding: 5px;
   background-color: transparent;
+}
+.texts-blog{
+  padding: 3%;
+  min-height: 20rem;
+  background-color: transparent;
+
 }
 
 .comment-users-text{

@@ -5,8 +5,6 @@
     margin: 0;
 	padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-	list-style: none;
 }
 :root {
   --color-bg: rgb(83, 4, 83);
@@ -149,7 +147,10 @@ color: #fff;
   .add-blog-btn a:hover{
     color: var(--color-primary-text);
   }
-
+  .texts-blog{
+    padding: 3%;
+    min-height: 20rem;
+  }
 /* SIDEBAR STARTS*/
 .add-blog-sidebar{
     margin-top: 2rem;
