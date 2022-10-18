@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use setting</title>
+<!--      <link rel="stylesheet" href="./fontawesome-free-5.12.0-web/css/all.min.css" />
+ -->   
+    <script src="https://kit.fontawesome.com/992b4228c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="user-setting.css">
+</head>
+<body>
+    <section class="container">
+        <main>
+            <!-- SECTION HEADER STARTS -->
+            <section class="user-header">
+                <div class="chose-profile">
+                    <label for="file-input" class="file-input">
+                        Choose Profile Photo
+                    </label>
+                    <input type="file" id="file-input" accept="image/png, image/jpg, image/gif, image/jpeg" />
+                </div>
+                <div class="card">
+                    <div class="overflow">
+                        <img src="./assets/user-profile.png" class="img-overflow" alt="A profile image of the user"/>
+                    </div>
+                    <div>
+                        <a href=""><button>EDIT</button></a>
+                    </div>
+                </div>
+            </section>
+            <!-- SECTION HEADER ENDS -->
+    
+    
+            <!-- SECTION INPUT STARTS -->
+            <section class="user-input">
+                <div class="details">
+                    <div class="upload-form">
+                        <form id="upload-form" method="POST" auto-complete="off">
+                            <div class="first-form">
+                                    <div class="form-text">
+                                        <label for="fname">First Name</label><br>
+                                        <input type="text" name="fname" placeholder="First Name" id="fname" maxlength="45" required>
+                                    </div>
+                                    <div class="form-text">
+                                        <label for="Uname" >Last Name</label><br>
+                                        <input type="text" name="Uname" placeholder="Last Name" id="uname" required>
+                                    </div>
+                             </div>
+                            <label for="email">
+                                Email address
+                            </label>
+                            <input type="text" name="Email" placeholder="Email address" id="email" maxlength="45" required><br><br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <!-- SECTION INPUT ENDS -->
+    
+    
+            <!-- SECTION POST-PUBLISH-BUTTON STARTS -->
+            <section class="user-post-publish">
+                <div class="post-text-button">
+                    <div class="post">
+                        <p><b>Post</b></p>
+                    </div>
+                    <div class="load-more">
+                        <a href="" class="load-more-btn">Add New Post <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </section>
+            <!-- SECTION POST-PUBLISH-BUTTON ENDS -->
+            
+            
+            <!-- SECTION SETTING-CONTENT STARTS -->
+            <section class="user-setting-content">
+               
+
+                <table cellpadding="20" cellspacing="5">
+                    <tr>
+                      <th rowspan="1"><input type="checkbox"></th>
+                      <th rowspan="1">Title</th>
+                      <th rowspan="1">Category</th>
+                      <th rowspan="1">Tag</th>
+                      <th rowspan="1">Date</th>
+                    </tr>
+                   
+                    
+                    <tr>
+                      <td><input type="checkbox"> </td>
+                      <td>
+                        <img src="./assets/blog1.png" alt="" srcset=""><br>
+                        <p><b>Just Project Launches</b></p>
+                        <div class="table-link">
+                            <a href="">Edit</a>
+                            <a href="" class="delete-link">Delete</a>
+                            <a href="">View</a>
+                        </div>
+                    </td>
+                      <td>General</td>
+                      <td>Html  |  Css  |  Javascript</td>
+                      <td>Published <br> <span class="date">2022/05/03</span> at <span class="time">2:52 pm</span></td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox"> </td>
+                      <td>
+                        <img src="./assets/blog2.png" alt="" srcset=""><br>
+                        <p><b>HTML for beginners</b></p>
+                        <div class="table-link">
+                            <a href="">Edit</a>
+                            <a href="" class="delete-link">Delete</a>
+                            <a href="">View</a>
+                        </div>
+                        </td>
+                      <td>HTML</td>
+                      <td>Html  |  Css  |  Javascript </td>
+                      <td>Published <br> <span class="date">2022/05/03</span> at <span class="time">2:52 pm</span></td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox"> </td>
+                      <td>
+                        <img src="./assets/blog3.png" alt="" srcset=""><br>
+                        <p><b>How to create a responsive layout</b></p>
+                        <div class="table-link">
+                            <a href="">Edit</a>
+                            <a href="" class="delete-link">Delete</a>
+                            <a href="">View</a>
+                        </div>
+                        </td>
+                      <td>HTML</td>
+                      <td>Html  |  Css  |  Javascript</td>
+                      <td>Published <br> <span class="date">2022/05/03</span> at <span class="time">2:52 pm</span></td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox"> </td>
+                      <td>
+                        <img src="./assets/blog2.png" alt="" srcset=""><br>
+                        <p><b>HTML for beginners</b></p>
+                        <div class="table-link">
+                            <a href="">Edit</a>
+                            <a href="" class="delete-link">Delete</a>
+                            <a href="">View</a>
+                        </div>
+                    </td>
+                      <td>HTML</td>
+                      <td>Html  |  Css  |  Javascript</td>
+                      <td>Published <br> <span class="date">2022/05/03</span> at <span class="time">2:52 pm</span></td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox"> </td>
+                      <td>
+                        <img src="./assets/blog1.png" alt="" srcset=""><br>
+                        <p><b>Just Project Launches</b></p>
+                        <div class="table-link">
+                            <a href="">Edit</a>
+                            <a href="" class="delete-link">Delete</a>
+                            <a href="">View</a>
+                        </div>
+                    </td>
+                      <td>General</td>
+                      <td>Html  |  Css  |  Javascript </td>
+                      <td>Published <br> <span class="date">2022/05/03</span> at <span class="time">2:52 pm</span></td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox"> </td>
+                      <td>
+                        <img src="./assets/blog3.png" alt="" srcset=""><br>
+                        <p><b>How to create a responsive layout</b></p>
+                        <div class="table-link">
+                            <a href="">Edit</a>
+                            <a href="" class="delete-link">Delete</a>
+                            <a href="">View</a>
+                        </div>
+                    </td>
+                      <td>Html  |  Css  </td>
+                      <td>Html  |  Css  |  Javascript </td>
+                      <td>Published <br> <span class="date">2022/05/03</span> at <span class="time">2:52 pm</span></td>
+                    </tr>
+                   
+                    
+                </table>
+            </section>
+            <!-- SECTION  SETTING-CONTENT ends -->
+    
+        </main>
+    </section>
+</body>
+</html>
