@@ -41,6 +41,7 @@ p, button {
 
 .section-content {
     display: flex;
+    align-items: center;
 }
 
 .line-divider {
@@ -56,7 +57,7 @@ p, button {
 .left_column {
     width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
 }
 
 .right_column {
@@ -147,8 +148,7 @@ p, button {
     color: #000000;
     font-style: SemiBold;
     font-weight: 600;
-    margin-bottom: 1em;
-    line-height: 3.68rem;
+    margin-bottom: .3em;
     Fill: Solid;
 }
 
@@ -158,10 +158,6 @@ p, button {
     margin-top: 2em;
 }
 
-/* .search-icon {
-    width: 20%;
-    margin-right: 2em;
-} */
 
 .topmost-text {
     color: #AE1DC7;
@@ -173,7 +169,6 @@ p, button {
 }
 
 .search-action {
-    /* padding: .5em 2em .5em 3em; */
     width: 8rem;
     background: #FFFFFF;
     background-image: url(./assets/search_icon.png);
@@ -186,7 +181,6 @@ p, button {
     text-align: right;
     font-weight: 400;
     Fill: Solid;
-    /* line-height: 1.44rem; */
 }
 
 
@@ -202,7 +196,7 @@ p, button {
 }
 
 .hero-content {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
 }
 
 .hero-content .hero-text {
@@ -211,7 +205,6 @@ p, button {
     font-weight: 500;
     font-style: Medium;
     Fill: Solid;
-    line-height: 1.43rem;
 }
 
 
@@ -271,13 +264,14 @@ p, button {
     font-style: semibold;
     Fill: Solid;
     margin-bottom: .5em;
+    white-space: nowrap;
 }
 
 .article-text {
     color: #000000;
     font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.18rem;
+    font-size: .8rem;
+    /* line-height: 1.18rem; */
     font-style: Regular;
     Fill: Solid;
     margin-bottom: 1em;
@@ -299,6 +293,7 @@ p, button {
 
 .section-three-column {
     flex-direction: column;
+    justify-content: flex-end;
     width: 30%;
 }
 
