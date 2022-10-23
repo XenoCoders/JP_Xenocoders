@@ -344,6 +344,12 @@ p, button {
 }
 
 
+@media (max-width: 768px) {
+    .section-container {
+        display: none;
+    }
+}
+
 
 
 
