@@ -177,6 +177,7 @@ p, button {
     background-size: 1.2rem;
     background-position-x: .5rem;
     border: none;
+    outline: none;
     font-size: 1.25rem;
     text-align: right;
     font-weight: 400;
